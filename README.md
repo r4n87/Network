@@ -1,6 +1,7 @@
 # Network TCP/IP 교과서
 - [Chapter 01. What is TCP/IP?](#chapter-01-what-is-tcpip)
 - [Chapter 02. How does TCP/IP work?](#chapter-02-how-does-tcpip-work)
+- [Chapter 03. Network Access Layer](#chapter-03-network-access-layer)
 
 ## Chapter 01. What is TCP/IP?
 ### 퀴즈
@@ -67,3 +68,35 @@
 4. TCP가 신뢰할 수 있는 프로토콜이라는 말의 의미를 설명하세요.
 - 연결 지향 프로토콜로 데이터 전달을 보장하기 위해 많은 노력을 기울임
 - 정교한 흐름 제어 및 오류 제어 제공
+
+
+## Chapter 03 Network Access Layer
+### 퀴즈
+1. CRC는 무엇입니까?  
+- Cyclic Redundancy Check 주기적 덧붙임 검사
+- 데이터 프레임의 내용을 확인하는데 사용되는 체크섬 계산
+
+2. 이더넷 네트워크에서 충돌 감지란 무엇입니까?  
+- CD(Collision Detection)
+- 이더넷에서 사용하는 네트워크 접근 방법
+- 두 대의 컴퓨터가 동시에 전송을 시도하면 충돌이 발생하는데, 이때 컴퓨터는 일시 중지되어 임의의 시간 동안 대기했다가 다시 전송
+
+3. 이더넷 물리 주소는 얼마나 큽니까?  
+- 48비트
+
+4. ARP가 하는 일은 무엇입니까?
+- IP 주소를 로컬 네트워크에 있는 네트워크 어댑터의 물리 주소와 연결
+- 사용자가 보는 논리 IP 주소와 LAN에 사용되는 보이지 않는 하드웨어 주소를 연결
+
+### 연습문제
+1. 물리 주소와 IP 주소를 연결하는 두 가지 프로토콜을 나열하세요.  
+- ARP, RARP
+- ARP(Address Resolution Protocol) 주소 확인 프로토콜
+- RARP(Reverse Address Resolution Protocol) 역 ARP
+
+2. 최소 세 가지 네트워크 아키텍처를 나열하세요.  
+- LAN(유선), WAN(무선), 인터넷(WAN의 일종, 전세계의 LAN을 연결)
+
+3. OSI 매체 접근 제어 및 논리 링크 제어 계층이 수행하는 기능을 설명하세요.  
+- MAC(Media Access Control): 네트워크 어댑터와의 인터페이스를 제공
+- LLC(Logical Link Control): 서브넷을 통해 전달된 프레임의 오류를 검사, 서브넷에서 통신하는 장치 간의 링크를 관리
