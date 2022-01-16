@@ -5,7 +5,7 @@
 - [Chapter 04. Internet Layer](#chapter-04-internet-layer)
 - [Chapter 05. Subnetting and CIDR](#chapter-05-subnetting-and-cidr)
 - [Chapter 06. Transport Layer](#chapter-06-transport-layer)
-- [Chapter 07. Application Kayer](#chapter-07-application-layer)
+- [Chapter 07. Application Layer](#chapter-07-application-layer)
 
 ## Chapter 01. What is TCP/IP?
 ### 퀴즈
@@ -499,3 +499,19 @@ API
 
 TCP/IP 유틸리티
 - 전 세계적으로 TCP/IP 네트워크 구성 및 관리, 문제 해결에 사용
+
+### 퀴즈
+1. 연결을 확인할 수 있는 네트워크 유틸리티는 무엇입니까?  
+: Ping
+
+2. 웹 페이지를 불러오는 데 사용되는 응용 계층 프로토콜은 무엇입니까?  
+: 하이퍼텍스트 전송 프로토콜(HTTP)
+
+3. 메일을 가져오는 데 사용되는 두 응용 계층 프로토콜은 무엇입니까?  
+: 인터넷 메시지 접근 프로토콜(IMAP), 포스트 오피스 프로토콜(POP)
+
+4. 호스트 이름을 IP 주소와 매핑하는 데 사용되는 프로토콜은 무엇입니까?  
+: 도메인 이름 시스템(DNS)
+
+5. 컴퓨터 시간을 동기화하는 데 사용되는 프로토콜은 무엇입니까?  
+: 네트워크 시간 프로토콜(NTP)
