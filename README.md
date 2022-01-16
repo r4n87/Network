@@ -5,6 +5,7 @@
 - [Chapter 04. Internet Layer](#chapter-04-internet-layer)
 - [Chapter 05. Subnetting and CIDR](#chapter-05-subnetting-and-cidr)
 - [Chapter 06. Transport Layer](#chapter-06-transport-layer)
+- [Chapter 07. Application Kayer](#chapter-07-application-layer)
 
 ## Chapter 01. What is TCP/IP?
 ### 퀴즈
@@ -456,3 +457,45 @@ UDP
 - 프로토콜: TCP
 - 홈 네트워크에 전달하는 사항이므로, 보안이 잘 지켜질 수 있도록 TCP를 사용하여 안정성 있게 구현해야 함
 - 실시간으로 전달되는 대규모 애플리케이션이 아니므로 TCP를 통해 진행하여도 오버헤드가 크지 않음
+
+## Chapter 07. Application Layer
+### 정리
+응용 계층
+- TCP/IP 프로토콜의 맨 위
+- OSI 응용, 표현, 세션 계층
+- OSI 응용: 사용자 애플리케이션을 위한 서비스와 네트워크 접근 제공
+- OSI 표현: 데이터를 플랫폼 중립 형태로 변환, 암호화 및 데이터 압축 처리
+- OSI 세션: 컴퓨터 애플리케이션 간의 통신 관리
+
+네트워크 서비스
+- 파일 서비스, 원격 접근 서비스, 이메일과 HTTP 웹 서비스 프로토콜 같은 서비스 제공
+- 사용자 경험을 제공
+
+파일 및 프린트
+- 파일 서버: 저장 장치 작동, 쓰기 및 읽기 요청 처리
+- 프린트 서버: 프린트 작동, 출력 처리
+- 네트워크 > 프로토콜 계층 > 전송 계층 > 포트를 통해 파일 서버 서비스로 라우팅
+
+이름 확인 서비스
+- name resolution
+- 사전 정의되고 사용자에게 친숙한 영숫자 이름을 IP 주소에 매핑하는 과정
+- DNS 서비스: 인터넷에 이름 확인 제공, TCP/IP 네트워크에 이름 확인 제공
+- DNS는 이름 서버를 사용
+
+원격 접근
+- 리다이렉터 redirector, 리퀘스터 requester
+- 로컬 컴퓨터의 서비스 요청을 가로채서 해당 요청이 로컬에서 처리되어야 하는지, 다른 컴퓨터로 전달되어야 하는지 확인
+- 리다이렉터는 해당 요청을 네트워크로 전송
+
+웹 서비스
+- 하이퍼텍스트 전송 서비스(Hypertext Transfer Protocol)
+- WWW 응용 계층 프로토콜
+- 웹 브라우저 내에서 작동하는 사용자 정의 도구를 구축하기 위한 프로토콜 및 구성 요소 집합
+
+API
+- 애플리케이션 프로그래밍 인터페이스 Application Programming Interface
+- 애플리 케이션이 운영 환경의 다른 부분에 접근하기 위해 사용할 수 있는 구성 요소의 집합체
+- 프로그램 -> (API 함수) -> 운영 시스템
+
+TCP/IP 유틸리티
+- 전 세계적으로 TCP/IP 네트워크 구성 및 관리, 문제 해결에 사용
