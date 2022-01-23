@@ -6,7 +6,8 @@
 - [Chapter 05. Subnetting and CIDR](#chapter-05-subnetting-and-cidr)
 - [Chapter 06. Transport Layer](#chapter-06-transport-layer)
 - [Chapter 07. Application Layer](#chapter-07-application-layer)
-- [Chapter 08. Routing](#chapter-08-routing) 
+- [Chapter 08. Routing](#chapter-08-routing)
+- [Chapter 09. Connecting](#chapter-09-connecting)
 
 ## Chapter 01. What is TCP/IP?
 ### 퀴즈
@@ -661,3 +662,19 @@ BGP
 - 장점:특정 경로에 트래픽을 강제할 수 있음
 - 단점: 대규모 네트워크에 적합하지 않음, 관리자의 시간 투자가 필요, 네트워크 변화에 빠르게 적응 불가능
 
+
+## Chapter 09. Connecting
+### 퀴즈
+4. 독립 기본 서비스 집합 무선 네트워크의 다른 이름은 무엇입니까?  
+: 무선 BSS, IBSS
+
+5. 허브와 스위치의 차이점은 무엇입니까?  
+허브
+- 자신의 포트 중 하나에서 전송을 수신하고 전송을 다른 모든 포트에 알리는 네트워크 장치
+- 데이터를 필터링하거나 라우팅하지 않고 단순히 신호를 수신하고 재전송
+- 네트워크 배선 작업을 단순화하여 쉽게 분리, 재연결 가능하게 함
+- 스위치로 대체됨
+
+스위치
+- 이더넷의 문제점 해결: 트래픽 증가에 따른 성능 저하, 회선이 비어있지 않으면 전송 불가능 등
+- 불필요한 전송을 줄여 네트워크의 성능을 높임
