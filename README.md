@@ -1169,7 +1169,7 @@ TFTP
 3. 유닉스/리눅스 삼바 파일 서버에 사용되는 파일 서비스 프로토콜은 무엇입니까?  
 : CIFS
 
-## Chapter16. Detail of Internet
+## Chapter 16. Detail of Internet
 ### 정리
 인터넷
 - 개인 네트워크가 다른 네트워크에 대한 접근을 공유하고 파는 대규모 집합체
